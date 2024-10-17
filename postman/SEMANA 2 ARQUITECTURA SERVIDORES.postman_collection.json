@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "435f70f8-6e83-4097-92a3-4bc885d4f688",
+		"name": "SEMANA 2 ARQUITECTURA SERVIDORES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30811333"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/posts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Sample Post for Testing 4\",\n  \"text\": \"This is a sample post used to test the functionality of the API. It contains sufficient text to ensure that all validation rules are met.\",\n  \"author\": \"Test Author\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/posts/67109a383752f4bf9617612b",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/posts/67109a383752f4bf9617612b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"posts",
+						"67109a383752f4bf9617612b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/posts/67109aaa3752f4bf96176133",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Sample Post for Testing 4 UPDATED\",\n  \"text\": \"This is a sample post used to test the functionality of the API. It contains sufficient text to ensure that all validation rules are met.\",\n  \"author\": \"Test Author\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/posts/67109aaa3752f4bf96176133",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"posts",
+						"67109aaa3752f4bf96176133"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/posts/67109aa33752f4bf9617612f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/posts/67109aa33752f4bf9617612f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"posts",
+						"67109aa33752f4bf9617612f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
