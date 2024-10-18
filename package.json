@@ -1,17 +1,18 @@
 {
   "name": "semana2",
   "version": "1.0.0",
-  "description": "Actividad de la semana 2 de arquitectura de servidores ",
+  "description": "Actividad de la semana 3 de arquitectura de servidores ",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/bin/www.js",
-    "dev": "nodemon src/app.ts",
+    "dev": "ts-node ./bin/www.ts",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmarmijosa/arquitectura-servidores-semana2.git"
+    "url": "git+https://github.com/dmarmijosa/arquitectura-servidores-semana2
+    3.git"
   },
   "keywords": [
     "#express",
@@ -21,9 +22,9 @@
   "author": "Danny Armijos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dmarmijosa/arquitectura-servidores-semana2/issues"
+    "url": "https://github.com/dmarmijosa/arquitectura-servidores-semana3/issues"
   },
-  "homepage": "https://github.com/dmarmijosa/arquitectura-servidores-semana2#readme",
+  "homepage": "https://github.com/dmarmijosa/arquitectura-servidores-semana3#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
