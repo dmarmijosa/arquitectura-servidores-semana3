@@ -11,8 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmarmijosa/arquitectura-servidores-semana2
-    3.git"
+    "url": "git+https://github.com/dmarmijosa/arquitectura-servidores-semana3.git"
   },
   "keywords": [
     "#express",
