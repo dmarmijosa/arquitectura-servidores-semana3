@@ -224,7 +224,7 @@ La colección de Postman se encuentra en la carpeta `postman/SEMANA 2 ARQUITECTU
 
 Puedes ver una demostración del funcionamiento de la API y una explicación del código en el siguiente enlace:
 
-[Enlace al video de demostración](https://youtu.be/8lMyJxmie4w)
+[Enlace al video de demostración](https://youtu.be/S7uIlrEx0WQ)
 
 ## Autor
 
