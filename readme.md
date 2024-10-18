@@ -211,7 +211,7 @@ posts-api/
 
 ## Colección de Postman
 
-La colección de Postman se encuentra en la carpeta `postman/SEMANA 2 ARQUITECTURA SERVIDORES.postman_collection`. Contiene peticiones preconfiguradas para todos los endpoints mencionados.
+La colección de Postman se encuentra en la carpeta `postman/SEMANA 3 ARQUITECTURA SERVIDORES.postman_collection`. Contiene peticiones preconfiguradas para todos los endpoints mencionados.
 
 **Cómo importar la colección en Postman**:
 
