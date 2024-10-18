@@ -36,7 +36,7 @@ Esta API permite realizar operaciones CRUD (crear, leer, actualizar y eliminar) 
 
    ```bash
    git clone https://github.com/dmarmijosa/arquitectura-servidores-semana3
-   cd semana2
+   cd semana3
    ```
 
 2. **Instala las dependencias**:
